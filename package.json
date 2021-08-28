@@ -1,0 +1,24 @@
+{
+  "name": "graphqlm",
+  "version": "1.0.0",
+  "description": "movie api with graphQL",
+  "main": "index.js",
+  "repository": "https://github.com/rlaxotjs2745/practice-graphQL.git",
+  "author": "tess",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-cli": "^6.26.0",
+    "global": "^4.4.0",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}

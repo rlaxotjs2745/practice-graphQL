@@ -1,0 +1,25 @@
+type Query {
+  people: [info]!
+  person(id: Int!): info
+}
+
+type info {
+  id: Int!
+  name: String!
+  age: Int!
+  sex: String!
+}
+
+type Mutation {
+  deletePerson(id: Int!): Boolean!
+  addPerson(name: String!, age: Int!, sex: String!): Boolean!
+}
+
+type movie {
+  id: Int!
+  title: String!
+  rating: Float!
+  summary: String!
+  language: String!
+  medium_cover_image: String!
+}
